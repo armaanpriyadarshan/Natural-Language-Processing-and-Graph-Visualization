@@ -10,7 +10,7 @@ import pyTigerGraph as tg
 
 ## TG STUFF INCOMING
 
-conn = tg.TigerGraphConnection(host="https://a9cf2383f44d4944b4969837ae17f425.i.tgcloud.io/", username="tigergraph", password="Ap20062016", gsqlVersion="3.1.1", useCert=True)
+conn = tg.TigerGraphConnection(host="HOST_TIGERGRAPH_DOMAIN", username="TG_INSTANCE_USERNAME", password="TG_INSTANCE_PASSWORD", gsqlVersion="3.1.1", useCert=True)
 
 # Reads Page 1 and stores its contents in a variable 
 f = open('sample text.txt', 'r', encoding='utf-8')
